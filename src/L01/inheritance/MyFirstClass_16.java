@@ -1,11 +1,11 @@
-package L01;
+package L01.inheritance;
 import java.text.*;
 
 //הגדרת תבנית שלא תופסת מקום בפועל בזיכרון
 //אלא מאפשרת ליצור ממנה מופעים לפי הגדרתה
 class Car {
     //-------------Properties--------------
-    public int NumOfWheels;
+    public int  NumOfWheels;
     public long Price;
 
     //-------------Methods--------------
@@ -42,7 +42,7 @@ class Car {
 
 }
 
-public class MyFirstClass {
+public class MyFirstClass_16 {
 
     public static void main(String[] args) {
 
