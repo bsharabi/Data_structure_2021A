@@ -1,6 +1,6 @@
 package L01;
 
-public interface NestedCondition_10 {
+public class NestedCondition_10 {
     public static void main(String[] args) {
         int age = 7;
         boolean IsWinePerson = false;

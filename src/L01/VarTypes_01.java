@@ -16,11 +16,11 @@ public class VarTypes_01 {
         float f = 2.44f;
         //----------תווים-----------------------------
         // 2 byte
-        char ch = 'a';
-
+        char ch = 'c';
         //----------בוליאני---------------------------
         //can contain only `true` or `false`
         boolean bl = true;
+
         //****************ref type********************
         String s = "Hello";
     }

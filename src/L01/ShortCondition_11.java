@@ -3,8 +3,6 @@ package L01;
 public class ShortCondition_11 {
     public static void main(String[] args) {
         boolean flag = true;
-
-
         String res1;
 
         if (flag) {
@@ -19,6 +17,7 @@ public class ShortCondition_11 {
         res2 = (flag) ? "flag is true" : "flag is false";
 
         System.out.println("res2: " + res2);
+
 
         //--------------Example-------------------
         //if (num > 9) so res is  ( num * 2 )

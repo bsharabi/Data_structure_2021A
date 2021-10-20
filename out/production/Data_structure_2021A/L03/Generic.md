@@ -165,89 +165,34 @@ Sending to 0551115566, msg: HAVE A PERFECT DAY
 
 # Generic class - implicit call
 
-```csharp
+```java
 
-    class Sms<T>
-    {
-        public string PhoneAddressee;
-        public T Msg;
+class Sms<T> {
+    public String PhoneAddressee;
+    public T Msg;
 
 
-        public Sms(T msg)
-        {
-            Msg=msg;
-        }
-        
-        public void SendSms()
-        {
-            System.Console.WriteLine($"Sending to {PhoneAddressee}, msg: {Msg}");
-        }
+    public Sms(T msg) {
+        Msg = msg;
     }
 
-
-    class MyFirstGenericClass
-    {
-        public static void main(String[] args)
-        {
-
-            Sms<int> sms1 = new Sms(3);
-            sms1.PhoneAddressee = "0553335566";
-            sms1.SendSms();
-
-            Sms<string> sms2 = new Sms("HAVE A PERFECT DAY");
-            sms2.PhoneAddressee = "0551115566";
-            sms2.SendSms();
-
-        }
+    public void SendSms() {
+        System.out.println("Sending to " + PhoneAddressee + ", msg: " + Msg);
     }
+}
 
 
-```
+class Main {
+    public static void main(String[] args) {
 
-output:
+        Sms<Integer> sms1 = new Sms(3);
+        sms1.PhoneAddressee = "0553335566";
+        sms1.SendSms();
 
-```
-Sending to 0553335566, msg: 3
-Sending to 0551115566, msg: HAVE A PERFECT DAY
-```
+        Sms<String> sms2 = new Sms("HAVE A PERFECT DAY");
+        sms2.PhoneAddressee = "0551115566";
+        sms2.SendSms();
 
-# Generic class - explicit call
-
-```csharp
-namespace _02_generics
-{
-    class Sms<T>
-    {
-        public string PhoneAddressee { get; set; }
-        public T Msg { get; set; }
-
-
-        public Sms(T msg)
-        {
-            Msg=msg;
-        }
-        
-        public void SendSms()
-        {
-            System.Console.WriteLine($"Sending to {PhoneAddressee}, msg: {Msg}");
-        }
-    }
-
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-
-            Sms<int> sms1 = new Sms<int>(3);
-            sms1.PhoneAddressee = "0553335566";
-            sms1.SendSms();
-
-            Sms<string> sms2 = new Sms<string>("HAVE A PERFECT DAY");
-            sms2.PhoneAddressee = "0551115566";
-            sms2.SendSms();
-
-        }
     }
 }
 

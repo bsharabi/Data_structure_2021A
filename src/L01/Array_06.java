@@ -22,10 +22,10 @@ public class Array_06 {
         //מספר התאים יקבע לפי מספר הערכים שניתנו באיתחול
         int[] arr3 = new int[]{2, 4, 8};
 
-        System.out.println("---------------arr1------------------");
-        for (int i = 0; i < arr1.length; i++) {
-            System.out.print(arr1[i] + " ");
 
+        System.out.println("---------------arr1------------------");
+        for (int i = 0, size=arr1.length; i <size ; i++) {
+            System.out.print(arr1[i] + " ");
         }
         //דרך ראשונה ליצירת מערך - באמצעות ציון מספר התאים שיהיו לאותו מערך
         //ללא צורך לתת את ערכי התאים בשורת האיתחול
@@ -61,7 +61,6 @@ public class Array_06 {
             System.out.println();
 
         }
-
 
     }
 

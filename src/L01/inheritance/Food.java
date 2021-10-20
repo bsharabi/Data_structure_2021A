@@ -23,13 +23,13 @@ public class Food {
 }
 
 class Pizza extends Food {
+
     private int numOfSlices;
     public int NumOfSlices;
 
     public int getNumOfSlices() {
         return numOfSlices;
     }
-
     public void setNumOfSlices(int numOfSlices) {
         this.numOfSlices = numOfSlices;
     }

@@ -11,7 +11,6 @@ public class Functions_14 {
         String str = GetHello();
         System.out.println("Got from GetHello: "+str);
 
-
         int num = GetSum(2,5);
         System.out.println("Got from GetSum: "+num);
     }

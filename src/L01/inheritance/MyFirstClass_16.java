@@ -1,24 +1,31 @@
 package L01.inheritance;
+
 import java.text.*;
 
 //הגדרת תבנית שלא תופסת מקום בפועל בזיכרון
 //אלא מאפשרת ליצור ממנה מופעים לפי הגדרתה
 class Car {
+
     //-------------Properties--------------
-    public int  NumOfWheels;
+    public int NumOfWheels;
     public long Price;
 
     //-------------Methods--------------
     public String GetDescription() {
         return MessageFormat.format("Car costs: {0}, and has {1} wheels", Price, NumOfWheels);
     }
+
     //------------Constructor------------
     public Car(int numOfWheels, long price) {
         NumOfWheels = numOfWheels;
         Price = price;
     }
+
     //------------polymorphism - Constructor------------
-     public Car(){};
+    public Car() {
+    }
+
+    ;
 
 //------------- Getter + Setter --------------
 
@@ -29,7 +36,6 @@ class Car {
     public void setNumOfWheels(int numOfWheels) {
         if (numOfWheels < 15 && numOfWheels >= 4)
             NumOfWheels = numOfWheels;
-
     }
 
     public long getPrice() {

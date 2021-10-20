@@ -2,8 +2,8 @@ package L01;
 
 public class Loops_13 {
     public static void main(String[] args) {
-        int limit = 4;
 
+        int limit = 4;
         System.out.println("-------------while------------------");
         int whileCounter = 0;
         while (whileCounter < limit) {

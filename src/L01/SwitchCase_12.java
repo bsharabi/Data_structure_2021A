@@ -42,8 +42,6 @@ public class SwitchCase_12 {
                 System.out.println("not Sunday or Monday");
                 break;
         }
-
-
         //-----------------Example------------------------
 
         // 90 - 100 --> "Perfect"

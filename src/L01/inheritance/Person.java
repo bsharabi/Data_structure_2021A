@@ -47,6 +47,7 @@ abstract public class Person implements MyActions {
         this.age = age;
     }
 
+
     //---------------------------------------------------------------------
     @Override
     public String toString() {
@@ -59,7 +60,7 @@ abstract public class Person implements MyActions {
     }
 }
 
-class Student extends Person implements MyActions {
+class Student extends Person  {
     private String universityName;
 
     public Student(String name, String lastName, String id, double age, String universityName) {
@@ -98,10 +99,9 @@ class Student extends Person implements MyActions {
     }
 }
 
-class Employee extends Person implements MyActions {
+class Employee extends Person  {
 
     private String workplaceName;
-
     public String getWorkplaceName() {
         return workplaceName;
     }

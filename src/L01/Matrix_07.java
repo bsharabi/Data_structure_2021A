@@ -36,7 +36,7 @@ public class Matrix_07 {
 
         System.out.println("\n--------------arr03 for ----------------------");
 
-        for (int i = 0; i < arr03.length; i++) {
+        for (int i = 0, n=arr03.length; i <n ; i++) {
             System.out.printf("arr03 for : %d  ", arr03[i]);
         }
 
