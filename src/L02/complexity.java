@@ -1,9 +1,7 @@
 package L02;
 
 public class complexity {
-    public static void main(String[] args) {
 
-    }
 
     public static void my_func(int n) {
         int k = 1;

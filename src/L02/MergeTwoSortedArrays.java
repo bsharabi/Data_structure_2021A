@@ -9,6 +9,7 @@ public class MergeTwoSortedArrays {
         int[] a = fill(10);
         int[] b = fill(10);
 
+
         Arrays.sort(a); //By default O(nlog(n))
         Arrays.sort(b); //By default O(nlog(n))
         int[] mergeArray =merge(a,b);

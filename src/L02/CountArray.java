@@ -5,6 +5,7 @@ public class CountArray {
         int cnt=0;
         while(a.length>++cnt);
         return cnt;
+
     }
     public static void main(String[] args) {
         // define original array

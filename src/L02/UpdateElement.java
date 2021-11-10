@@ -8,6 +8,8 @@ public class UpdateElement {
         // define original array
         int[] tensArray = {10, 20, 30, 40, 50, 60};
 
+
+
         // Print the original array
         System.out.println("Original Array: " + Arrays.toString(tensArray));
 

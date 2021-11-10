@@ -5,6 +5,7 @@ public class FindSmallest {
 
     public static int smallest(int[] arr)
     {
+
         int i;
         int min = arr[0];
         for (i = 1; i < arr.length; i++)

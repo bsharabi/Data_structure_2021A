@@ -28,6 +28,7 @@ public class BinarySearch {
         return a;
     }
 
+
     public static int BSearch_Iterative_int(int[] a, int key) {
         int left = 0, right = a.length - 1;
         int mid;

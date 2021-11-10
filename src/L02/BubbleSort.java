@@ -1,6 +1,7 @@
 package L02;
 
 abstract class BubbleSort {
+
     //O(n^2)
     public static void bubbleSort(int[] a) {
         int counter = 0;

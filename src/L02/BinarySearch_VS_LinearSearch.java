@@ -6,6 +6,7 @@ import java.util.Random;
 public class BinarySearch_VS_LinearSearch {
 
 
+
     public static void main(String[] args) {
         int[] a = fill(1000000);
         int key = a[6735];
