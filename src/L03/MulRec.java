@@ -10,3 +10,6 @@ public class MulRec {
         System.out.println(mul(10,5));
     }
 }
+//"abbbbabbcba"
+//"abbbbbbbba"
+
