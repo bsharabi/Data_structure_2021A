@@ -4,28 +4,22 @@ abstract class BubbleSort {
 
     //O(n^2)
     public static void bubbleSort(int[] a) {
-        int counter = 0;
         int n = a.length;
-        for (int i = 0; i < n - 1; i++)
+        for (int i = 0; i < n  i++)
             for (int j = 0; j < n - i - 1; j++) {
-                counter++;
                 if (a[j] > a[j + 1])
                     swap(a,j, j + 1);
             }
-        System.out.println(counter);
     }
 
     //O(n^2)
     public static void BBsort(int[] a) {
-        int counter = 0;
         int n = a.length;
         for (int i = 0; i < n ; i++)
             for (int j = 0; j < n -1 ; j++) {
-                counter++;
                 if (a[j] > a[j + 1])
                     swap(a,j, j + 1);
             }
-        System.out.println(counter);
     }
 
     //O(1)
