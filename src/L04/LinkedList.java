@@ -38,6 +38,7 @@ public class LinkedList{
         Node temp_head = this.head;
         while (temp_head!= null&& temp_head.index!=index)
             temp_head = temp_head.next;
+
         return temp_head.data;
     }
     @Override
