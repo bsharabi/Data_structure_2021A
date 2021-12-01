@@ -35,7 +35,7 @@ class Main {
 
 
 class Main {
-    static <T> void IsEq(T n1, T n2) {
+    static <T> void Print(T n1, T n2) {
         System.out.println("n1 = " + n1 + " , n2 = " + n2);
     }
 
@@ -64,7 +64,7 @@ n1 = True , n2 = True
 
 
 class Main {
-    static <T, S> void IsEq(T n1, S n2) {
+    static <T, S> void Print(T n1, S n2) {
         System.out.println("n1 = " + n1 + " , n2 = " + n2);
     }
 
