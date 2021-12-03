@@ -4,16 +4,20 @@ package L04;
 public class LinkedList{
 
     private Node head;
+    private Node tail;
     private int size = 0;
 
     public LinkedList() {
         this.head = null;
+        this.tail=null;
         this.size = 0;
     }
 
     public void add(int d) {
-        if (this.head == null)
-            this.head = new Node(d,size++);
+        if (this.head == null) {
+            this.head = new Node(d, size++);
+            this.tail=this.head;
+        }
         else {
             Node new_node = new Node(d, size++);
             Node temp_head = this.head;
