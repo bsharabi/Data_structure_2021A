@@ -5,11 +5,15 @@ public class QueueArray {
     private int[] qu;
     private int size;
     private int p;
+    private int capacity;
 
     public QueueArray(int capacity) {
+        if(capacity<=0)
+            capacity=10;
         this.qu = new int[capacity];
         this.p=0;
         this.size=0;
+        this.capacity=capacity;
     }
     //O(1)
     public void push(int i) {
@@ -29,8 +33,8 @@ public class QueueArray {
             size--;
             return qu[b];
         }
-
     }
+
     //O(1)
     public boolean empty() {
         return (size > 0) ? false : true;
@@ -43,6 +47,7 @@ public class QueueArray {
                 return true;
         return false;
     }
+
     //O(1)
     public int getSize() {
         return size;

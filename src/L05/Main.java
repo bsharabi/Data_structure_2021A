@@ -2,7 +2,7 @@ package L05;
 
 public class Main {
     public static void main(String[] args) {
-        LinkedList list =new LinkedList();
+        LinkedList list = new LinkedList();
         System.out.println(list.getFirst());
         System.out.println(list.getLast());
         System.out.println(list.isEmpty());
