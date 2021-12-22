@@ -5,7 +5,8 @@ public class BTree {
     public static void main(String[] args) {
         BTree bt = new BTree(17);
         bt.root.setLeft(new BinNode(36));
-        bt.root.getLeft().setLeft(new BinNode(12));
+        bt.root.setRight(new BinNode(12));
+        // 36 17 12
         bt.inOrder();
 
     }
