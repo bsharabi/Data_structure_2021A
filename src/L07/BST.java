@@ -1,14 +1,14 @@
 package L07;
 
-public class BTS {
+public class BST {
 
     private BinNode root;
 
-    public BTS(int value) {
+    public BST(int value) {
         this.root = new BinNode(value);
     }
 
-    public BTS() {
+    public BST() {
         this.root = null;
     }
 

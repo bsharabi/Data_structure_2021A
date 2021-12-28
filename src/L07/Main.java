@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        BTS bts = new BTS();
+        BST bts = new BST();
         Random rd = new Random();
         int[] a=new int[10];
         for (int i = 0; i < 10; i++) {
