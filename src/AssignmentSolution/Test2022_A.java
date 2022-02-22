@@ -3,7 +3,7 @@ package AssignmentSolution;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class Test2022 {
+public class Test2022_A {
 
 
     public static void main(String[] args) {
@@ -71,15 +71,15 @@ public class Test2022 {
         //------------------------ Question 3 -----------------------------
         Stack<Integer> s1 = new Stack<>();
         Stack<Integer> s2 = new Stack<>();
-        s1.push(8);
-        s1.push(6);
-        s1.push(5);
         s1.push(3);
+        s1.push(5);
+        s1.push(6);
+        s1.push(8);
 
-        s2.push(1);
-        s2.push(7);
-        s2.push(3);
         s2.push(8);
+        s2.push(3);
+        s2.push(7);
+        s2.push(1);
 
         System.out.println(s1);
         System.out.println(s2);
@@ -138,6 +138,7 @@ public class Test2022 {
 
     public static String deepStack(Stack<String> st, int k) {
         String deep = "";
+
         if (st.isEmpty() || k > st.size())
             return deep;
         Stack<String> temp = new Stack<>();
